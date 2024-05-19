@@ -1,0 +1,26 @@
+.shadow {
+    box-shadow: 0 0 10px rgba(22, 22, 22, 0.1); /* Agrega sombreado con un desenfoque de 10px */
+}
+
+/* Estilos para el botón de filtrado */
+.filter-button {
+    background-color: #007bff; /* Color de fondo */
+    color: #000; /* Color del texto (negro) */
+    padding: 10px 20px; /* Espaciado interno */
+    border: none; /* Eliminar borde */
+    border-radius: 5px; /* Borde redondeado */
+    cursor: pointer; /* Cambiar cursor al pasar sobre el botón */
+    transition: background-color 0.3s ease; /* Transición suave */
+    width: 100px; /* Ancho del botón */
+}
+
+/* Estilos cuando se pasa el cursor sobre el botón */
+.filter-button:hover {
+    background-color: #0056b3; /* Color de fondo más oscuro */
+}
+
+/* Estilos para el cajón de entrada del filtro */
+.filter-input {
+    width: calc(100% - 120px); /* Ancho total menos el ancho del botón */
+    margin-right: 10px; /* Espacio entre el cajón de entrada y el botón */
+}
